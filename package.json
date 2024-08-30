@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@sparticuz/chromium": "^127.0.0",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "json-bigint": "^1.0.0",
+    "morgan": "*",
+    "node-fetch": "^3.3.2",
+    "puppeteer-core": "^23.1.1",
+    "uuid": "^10.0.0"
+  }
+}
