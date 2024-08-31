@@ -91,7 +91,7 @@ app.get('/api/chara/search', async (req, res) => {
 	}
 })
 
-const PORT = process.env.PORT || 7860
+const PORT = process.env.PORT || 3000
 app.listen(PORT, async () => {
 	console.log('App running on port', PORT)
 	await characterAI.authenticateWithToken(process.env.cToken)
